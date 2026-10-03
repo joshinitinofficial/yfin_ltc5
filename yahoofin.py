@@ -5,9 +5,9 @@ import pandas as pd
 import io
 import zipfile
 
-st.set_page_config(page_title="Yahoo Finance Equity Data Downloader", page_icon="📈", layout="wide")
+st.set_page_config(page_title="Yahoo Finance Data Downloader", page_icon="📈", layout="wide")
 
-st.title("📈 Stock Data Downloader")
+st.title("📈 Stock Downloader")
 st.markdown("Download historical daily OHLC (Open, High, Low, Close) stock market data using `yfinance`.")
 
 # Helper function to round numerical data safely
